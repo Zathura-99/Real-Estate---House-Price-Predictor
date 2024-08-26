@@ -1,0 +1,22 @@
+1. LINEAR REGRESSION
+        rmse = 4.835301058716238
+    After cross-validation,
+                            Scores:  [4.22235612 4.26438649 5.09424333 3.83081183 5.37600331 4.41092152 7.47272243 5.48554135 4.14606627 6.0717752 ]
+                            Mean:  5.037482786117752
+                            Standard Deviation:  1.0594382405606955
+
+
+2. DECISION TREE REGRESSOR
+        rmse = 0.0 (overfit)
+    After cross-validation,
+                            Scores:  [4.21654696 5.67517057 5.16023728 3.98445149 4.32790365 3.18582799 4.52973509 4.0929818  3.4366408  4.66827056]
+                            Mean:  4.327776619000515
+                            Standard Deviation:  0.7034718947933712
+
+
+3. RANDOM FOREST REGRESSOR
+        rmse = 1.2574235100646736
+    After cross-validation,
+                            Scores:  [2.73918417 2.69429302 4.29443397 2.66334756 3.52363827 2.65811949 4.61368195 3.3162209  3.43108606 3.16848033]
+                            Mean:  3.310248572162049
+                            Standard Deviation:  0.6555226389174227
